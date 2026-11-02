@@ -77,7 +77,7 @@ export const StudyTimelineView: React.FC<StudyTimelineViewProps> = ({
     const icsContent = make_ics(events);
     const filename =
       filterCourseId === 'all'
-        ? 'SyllabusPilot_Study_Plan.ics'
+        ? 'SyllabusRacoon_Study_Plan.ics'
         : `${courses.find((c) => c.id === filterCourseId)?.code || 'Course'}_Plan.ics`;
     downloadIcsFile(filename, icsContent);
   };

@@ -60,9 +60,9 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Return to Dashboard"
             >
               <span className="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 text-white flex items-center justify-center text-sm font-sans font-bold shadow-xs">
-                SP
+                SR
               </span>
-              <span>SyllabusPilot</span>
+              <span>SyllabusRacoon</span>
             </button>
 
             {/* Micro status indicator */}

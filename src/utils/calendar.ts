@@ -49,10 +49,10 @@ export function make_ics(events: CalendarEvent[]): string {
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//SyllabusPilot//Academic Study Copilot//EN',
+    'PRODID:-//SyllabusRacoon//Academic Study Copilot//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:SyllabusPilot Study Plan',
+    'X-WR-CALNAME:SyllabusRacoon Study Plan',
     'X-WR-TIMEZONE:UTC',
   ];
 
@@ -63,7 +63,7 @@ export function make_ics(events: CalendarEvent[]): string {
     const safeDescription = ev.description.replace(/\n/g, '\\n').replace(/[,;\\]/g, ' ');
 
     lines.push('BEGIN:VEVENT');
-    lines.push(`UID:${ev.id}@syllabuspilot.app`);
+    lines.push(`UID:${ev.id}@syllabusracoon.app`);
     lines.push(`DTSTAMP:${timestamp}`);
     lines.push(`DTSTART:${dtStart}`);
     lines.push(`DTEND:${dtEnd}`);

@@ -163,7 +163,7 @@ export const SyllabusUploader: React.FC<SyllabusUploaderProps> = ({
           Upload or Paste <em className="italic font-normal text-indigo-600">Your Syllabus</em>
         </h1>
         <p className="text-[16px] text-slate-600">
-          Upload any course syllabus (PDF, slide photo, or pasted email). SyllabusPilot extracts all exam dates, essay deadlines, and percentage weights.
+          Upload any course syllabus (PDF, slide photo, or pasted email). SyllabusRacoon extracts all exam dates, essay deadlines, and percentage weights.
         </p>
       </div>
 

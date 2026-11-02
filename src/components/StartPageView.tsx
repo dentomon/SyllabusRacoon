@@ -359,7 +359,7 @@ export const StartPageView: React.FC<StartPageViewProps> = ({
   const handleExportAllCalendar = () => {
     const events = buildCalendarEventsFromCourse(allBlocks, allDeliverables);
     const ics = make_ics(events);
-    downloadIcsFile('SyllabusPilot_Full_Calendar.ics', ics);
+    downloadIcsFile('SyllabusRacoon_Full_Calendar.ics', ics);
   };
 
   return (

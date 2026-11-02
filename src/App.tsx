@@ -260,7 +260,7 @@ export default function App() {
       <footer className="mt-auto border-t border-slate-200 py-10 px-6 lg:px-12 bg-white">
         <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-[14px] text-slate-500">
           <div className="flex items-center gap-2">
-            <span className="font-serif font-normal text-slate-900 text-base">SyllabusPilot</span>
+            <span className="font-serif font-normal text-slate-900 text-base">SyllabusRacoon</span>
             <span aria-hidden="true">·</span>
             <span>Academic syllabus intelligence & calendar generator</span>
           </div>
