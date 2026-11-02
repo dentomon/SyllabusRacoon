@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  /* Steep Colors */
+  --color-ink-black: #17191c;
+  --color-paper-white: #ffffff;
+  --color-mist-gray: #f2f2f3;
+  --color-fog-white: #fafafb;
+  --color-slate-gray: #777b86;
+  --color-ash-gray: #979799;
+  --color-smoke-gray: #a3a6af;
+  --color-blush-peach: #fbe1d1;
+  --color-sienna-brown: #5d2a1a;
+
+  /* Steep Typography */
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Steep Border Radius */
+  --radius-cards: 24px;
+  --radius-inputs: 16px;
+  --radius-buttons: 9999px;
+  --radius-elevated: 20px;
+}
+
+:root {
+  --color-ink-black: #17191c;
+  --color-paper-white: #ffffff;
+  --color-mist-gray: #f2f2f3;
+  --color-fog-white: #fafafb;
+  --color-slate-gray: #777b86;
+  --color-ash-gray: #979799;
+  --color-smoke-gray: #a3a6af;
+  --color-blush-peach: #fbe1d1;
+  --color-sienna-brown: #5d2a1a;
+
+  --shadow-subtle: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 4px 24px 0 rgba(0, 0, 0, 0.06);
+  --shadow-artifact: 0 0 0 1px rgba(4, 23, 43, 0.05), 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.06);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper-white);
+  color: var(--color-ink-black);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Steep Signature Serif: weight stays 400 at all scales */
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+
+.shadow-artifact {
+  box-shadow: var(--shadow-artifact);
+}
+
+.shadow-subtle {
+  box-shadow: var(--shadow-subtle);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e2e4;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c8c8cc;
+}

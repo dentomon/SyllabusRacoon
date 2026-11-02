@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for SyllabusPilot: an AI agent application that extracts course deadlines, exam dates, and weightings from messy syllabi (PDF, text, photos), balances multi-course study workloads, and exports actionable schedules directly into Google Calendar and .ics files.",
+  "updatedAt": "2026-11-02T14:07:24.561953090Z",
+  "requestFeedback": true,
+  "userFacing": true
+}
